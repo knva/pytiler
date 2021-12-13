@@ -1,8 +1,10 @@
 ### pytiler
 
 
+
 ues:
 ```
+pip install pillow
 python pytiler.py imgfilename [tiler=256]
 ```
 
