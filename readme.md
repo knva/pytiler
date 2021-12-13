@@ -12,4 +12,4 @@ python pytiler.py pic.png 256
 ```
 
 
-![Image text](https://raw.github.com/knva/pytiler/master/pytiler/img/demo.png)
+![Image text](https://github.com/knva/pytiler/raw/master/img/demo.png)
