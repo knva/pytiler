@@ -35,7 +35,7 @@ def fill_image(origin_image:Image.Image,size,zoom,tiles,tile_size):
             box = (tile_size * i, tile_size * j, tile_size * (i+1), tile_size * (j+1))
             # print(box)
             region = img.crop(box)
-            imglist.append( {'z':zoom,'x':j,'y':i,'img':region})
+            imglist.append( {'z':zoom,'y':j,'x':i,'img':region})
     return imglist
 
 def get_max_zoom(width,height,tile_size):
